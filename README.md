@@ -26,6 +26,11 @@ const mainUrl = 'https://pesdb.net/pes2021/';
 const url = `${mainUrl}?page=dp3-transfered-players`; 
 ```
 
+```nodejs
+const mainUrl = 'https://pesdb.net/pes2021/';
+const url = `${mainUrl}?page=dp3-new-players`; 
+```
+
 
 
 **Guardamos los datos en => ('./jugadores-transferidos.csv');**
