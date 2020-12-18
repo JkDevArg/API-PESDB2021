@@ -20,7 +20,7 @@ npm install request request-promise cheerio objects-to-csv
 * objects-to-csv: ```Para guardar la información en un fichero CSV después de obtener lo que deseamos.```
 
 
-**Transferencias de jugadores** (Puedes cambiar la linea 3 el año es decir 2020/2019)
+**Transferencias de jugadores** (Puedes cambiar la linea 3 el año es decir 2020/2019)**
 ```nodejs
 const mainUrl = 'https://pesdb.net/pes2021/';
 const url = `${mainUrl}?page=dp3-transfered-players`; 
@@ -28,7 +28,7 @@ const url = `${mainUrl}?page=dp3-transfered-players`;
 
 
 
-**Guardamos los datos en => ('./jugadores-transferidos.csv');
+**Guardamos los datos en => ('./jugadores-transferidos.csv');**
 ```nodejs
 function saveInCSV() {
   const otocsv = require('objects-to-csv');
