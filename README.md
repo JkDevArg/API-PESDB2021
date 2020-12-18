@@ -43,4 +43,8 @@ function saveInCSV() {
 }
 ```
 
+## Para probar la api, debes usar VS Code
+**Apretas F5**
+
+Y automaticamente debuggeara el index.js donde apareceran todos los datos de los jugadores con su URL.
 
