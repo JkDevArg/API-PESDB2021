@@ -42,7 +42,7 @@ requestPromise(url)
     
   });
   
-  debugger;
+ // debugger;
   return saveInCSV();
 })
 .then(data => {
